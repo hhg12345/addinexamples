@@ -1,8 +1,8 @@
-#' Insert \%in\%.
+#' Insert \%>\%.
 #'
 #' Call this function as an addin to insert \code{ \%in\% } at the cursor position.
 #'
 #' @export
-insertInAddin <- function() {
-  rstudioapi::insertText(" %in% ")
+insertPipeAddin <- function() {
+  rstudioapi::insertText(" %>% ")
 }
