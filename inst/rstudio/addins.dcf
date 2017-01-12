@@ -1,6 +1,6 @@
-Name: Insert %in%
-Description: Inserts `%in%` at the cursor position.
-Binding: insertInAddin
+Name: Insert %>%
+Description: Inserts `%>%` at the cursor position.
+Binding: insertPipeAddin
 Interactive: false
 
 Name: Find and Replace
